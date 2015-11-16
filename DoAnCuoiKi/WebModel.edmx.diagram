@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5073068e2eac41a6a20ea2d669ee251f" Name="Diagram1" ZoomLevel="83">
+        <EntityTypeShape EntityType="Web_ChaoLongModel.C__MigrationHistory" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Web_ChaoLongModel.ChiTietDonHang" Width="1.5" PointX="5.25" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Web_ChaoLongModel.DanhMucSanPham" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="Web_ChaoLongModel.DonHang" Width="1.5" PointX="3" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Web_ChaoLongModel.HinhAnhSanPham" Width="1.5" PointX="5.25" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Web_ChaoLongModel.NhaCungCap" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Web_ChaoLongModel.QuyenAdmin" Width="1.5" PointX="3" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="Web_ChaoLongModel.SanPham" Width="1.5" PointX="3" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Web_ChaoLongModel.sysdiagram" Width="1.5" PointX="7.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Web_ChaoLongModel.ThanhVien" Width="1.5" PointX="0.75" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Web_ChaoLongModel.TheLoaiSP" Width="1.5" PointX="5.25" PointY="8.125" IsExpanded="true" />
+        <AssociationConnector Association="Web_ChaoLongModel.FK_ChiTietDonHang_DonHang" ManuallyRouted="false" />
+        <AssociationConnector Association="Web_ChaoLongModel.FK_ChiTietDonHang_SanPham" ManuallyRouted="false" />
+        <AssociationConnector Association="Web_ChaoLongModel.FK_SanPham_DanhMucSanPham" ManuallyRouted="false" />
+        <AssociationConnector Association="Web_ChaoLongModel.FK_DonHang_ThanhVien" ManuallyRouted="false" />
+        <AssociationConnector Association="Web_ChaoLongModel.FK_HinhAnhSanPham_SanPham" ManuallyRouted="false" />
+        <AssociationConnector Association="Web_ChaoLongModel.FK_SanPham_NhaCungCap" ManuallyRouted="false" />
+        <AssociationConnector Association="Web_ChaoLongModel.FK_QuyenAdmin_ThanhVien" ManuallyRouted="false" />
+        <AssociationConnector Association="Web_ChaoLongModel.SanPham_TheLoai" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="Web_ChaoLongModel.SanPhamDuocChon" Width="1.5" PointX="5.25" PointY="10.75" />
+        <AssociationConnector Association="Web_ChaoLongModel.FK_SanPhamDuocChon_SanPham1" />
+        <EntityTypeShape EntityType="Web_ChaoLongModel.LienHe" Width="1.5" PointX="7.375" PointY="6.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

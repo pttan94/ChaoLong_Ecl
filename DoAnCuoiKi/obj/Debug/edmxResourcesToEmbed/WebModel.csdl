@@ -1,0 +1,431 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Web_ChaoLongModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="C__MigrationHistory">
+    <Key>
+      <PropertyRef Name="MigrationId" />
+      <PropertyRef Name="ContextKey" />
+    </Key>
+    <Property Name="MigrationId" Type="String" MaxLength="150" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ContextKey" Type="String" MaxLength="300" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Model" Type="Binary" MaxLength="Max" FixedLength="false" Nullable="false" />
+    <Property Name="ProductVersion" Type="String" MaxLength="32" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ChiTietDonHang">
+    <Key>
+      <PropertyRef Name="ID_DH" />
+      <PropertyRef Name="ID_SP" />
+    </Key>
+    <Property Name="ID_DH" Type="Int32" Nullable="false" />
+    <Property Name="ID_SP" Type="Int32" Nullable="false" />
+    <Property Name="DonGia" Type="Double" />
+    <Property Name="SoLuongMua" Type="Int32" />
+    <NavigationProperty Name="DonHang" Relationship="Self.FK_ChiTietDonHang_DonHang" FromRole="ChiTietDonHang" ToRole="DonHang" />
+    <NavigationProperty Name="SanPham" Relationship="Self.FK_ChiTietDonHang_SanPham" FromRole="ChiTietDonHang" ToRole="SanPham" />
+  </EntityType>
+  <EntityType Name="DanhMucSanPham">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TenDM" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="SanPhams" Relationship="Self.FK_SanPham_DanhMucSanPham" FromRole="DanhMucSanPham" ToRole="SanPham" />
+  </EntityType>
+  <EntityType Name="DonHang">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="EmailNguoiMua" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TenNguoiNhan" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="SDTNguoiNhan" Type="String" MaxLength="15" FixedLength="true" Unicode="true" />
+    <Property Name="DiaChiNhan" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="TrangThai" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NgayLap" Type="DateTime" Precision="3" />
+    <Property Name="TongTien" Type="Double" Nullable="false" />
+    <NavigationProperty Name="ChiTietDonHangs" Relationship="Self.FK_ChiTietDonHang_DonHang" FromRole="DonHang" ToRole="ChiTietDonHang" />
+    <NavigationProperty Name="ThanhVien" Relationship="Self.FK_DonHang_ThanhVien" FromRole="DonHang" ToRole="ThanhVien" />
+  </EntityType>
+  <EntityType Name="HinhAnhSanPham">
+    <Key>
+      <PropertyRef Name="IDSP" />
+      <PropertyRef Name="HinhAnhURL" />
+      <PropertyRef Name="LaAnhHienThi" />
+    </Key>
+    <Property Name="IDSP" Type="Int32" Nullable="false" />
+    <Property Name="HinhAnhURL" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="LaAnhHienThi" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="SanPham" Relationship="Self.FK_HinhAnhSanPham_SanPham" FromRole="HinhAnhSanPham" ToRole="SanPham" />
+  </EntityType>
+  <EntityType Name="NhaCungCap">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TenNCC" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DiaChi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ThongTinNCC" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="SanPhams" Relationship="Self.FK_SanPham_NhaCungCap" FromRole="NhaCungCap" ToRole="SanPham" />
+  </EntityType>
+  <EntityType Name="QuyenAdmin">
+    <Key>
+      <PropertyRef Name="Email" />
+    </Key>
+    <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="ThanhVien" Relationship="Self.FK_QuyenAdmin_ThanhVien" FromRole="QuyenAdmin" ToRole="ThanhVien" />
+  </EntityType>
+  <EntityType Name="SanPham">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TenSP" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="MotaSP" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="GiaCu" Type="Double" />
+    <Property Name="GiaMoi" Type="Double" />
+    <Property Name="HienThiGiaCu" Type="Boolean" />
+    <Property Name="ThongTinSP" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="TinhTrangSP" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ChinhSachBH" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="KhuyenMai" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="SLton" Type="Int32" />
+    <Property Name="ID_DanhMuc" Type="Int32" />
+    <Property Name="ID_NhaCC" Type="Int32" />
+    <Property Name="HienThi" Type="Boolean" />
+    <NavigationProperty Name="ChiTietDonHangs" Relationship="Self.FK_ChiTietDonHang_SanPham" FromRole="SanPham" ToRole="ChiTietDonHang" />
+    <NavigationProperty Name="DanhMucSanPham" Relationship="Self.FK_SanPham_DanhMucSanPham" FromRole="SanPham" ToRole="DanhMucSanPham" />
+    <NavigationProperty Name="HinhAnhSanPhams" Relationship="Self.FK_HinhAnhSanPham_SanPham" FromRole="SanPham" ToRole="HinhAnhSanPham" />
+    <NavigationProperty Name="NhaCungCap" Relationship="Self.FK_SanPham_NhaCungCap" FromRole="SanPham" ToRole="NhaCungCap" />
+    <NavigationProperty Name="TheLoaiSPs" Relationship="Self.SanPham_TheLoai" FromRole="SanPham" ToRole="TheLoaiSP" />
+    <NavigationProperty Name="SanPhamDuocChons" Relationship="Web_ChaoLongModel.FK_SanPhamDuocChon_SanPham1" FromRole="SanPham" ToRole="SanPhamDuocChon" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="ThanhVien">
+    <Key>
+      <PropertyRef Name="Email" />
+    </Key>
+    <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TenTV" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="MatKhau" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="NgaySinh" Type="DateTime" Precision="0" />
+    <Property Name="SDT" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="DiaChi" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="NgayTao" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="DonHangs" Relationship="Self.FK_DonHang_ThanhVien" FromRole="ThanhVien" ToRole="DonHang" />
+    <NavigationProperty Name="QuyenAdmin" Relationship="Self.FK_QuyenAdmin_ThanhVien" FromRole="ThanhVien" ToRole="QuyenAdmin" />
+  </EntityType>
+  <EntityType Name="TheLoaiSP">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TenTL" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="SanPhams" Relationship="Self.SanPham_TheLoai" FromRole="TheLoaiSP" ToRole="SanPham" />
+  </EntityType>
+  <Association Name="FK_ChiTietDonHang_DonHang">
+    <End Role="DonHang" Type="Self.DonHang" Multiplicity="1" />
+    <End Role="ChiTietDonHang" Type="Self.ChiTietDonHang" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DonHang">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="ChiTietDonHang">
+        <PropertyRef Name="ID_DH" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ChiTietDonHang_SanPham">
+    <End Role="SanPham" Type="Self.SanPham" Multiplicity="1" />
+    <End Role="ChiTietDonHang" Type="Self.ChiTietDonHang" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SanPham">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="ChiTietDonHang">
+        <PropertyRef Name="ID_SP" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SanPham_DanhMucSanPham">
+    <End Role="DanhMucSanPham" Type="Self.DanhMucSanPham" Multiplicity="0..1" />
+    <End Role="SanPham" Type="Self.SanPham" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DanhMucSanPham">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="SanPham">
+        <PropertyRef Name="ID_DanhMuc" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DonHang_ThanhVien">
+    <End Role="ThanhVien" Type="Self.ThanhVien" Multiplicity="1" />
+    <End Role="DonHang" Type="Self.DonHang" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ThanhVien">
+        <PropertyRef Name="Email" />
+      </Principal>
+      <Dependent Role="DonHang">
+        <PropertyRef Name="EmailNguoiMua" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_HinhAnhSanPham_SanPham">
+    <End Role="SanPham" Type="Self.SanPham" Multiplicity="1" />
+    <End Role="HinhAnhSanPham" Type="Self.HinhAnhSanPham" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SanPham">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="HinhAnhSanPham">
+        <PropertyRef Name="IDSP" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SanPham_NhaCungCap">
+    <End Role="NhaCungCap" Type="Self.NhaCungCap" Multiplicity="0..1" />
+    <End Role="SanPham" Type="Self.SanPham" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NhaCungCap">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="SanPham">
+        <PropertyRef Name="ID_NhaCC" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_QuyenAdmin_ThanhVien">
+    <End Role="ThanhVien" Type="Self.ThanhVien" Multiplicity="1" />
+    <End Role="QuyenAdmin" Type="Self.QuyenAdmin" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="ThanhVien">
+        <PropertyRef Name="Email" />
+      </Principal>
+      <Dependent Role="QuyenAdmin">
+        <PropertyRef Name="Email" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="SanPham_TheLoai">
+    <End Role="SanPham" Type="Self.SanPham" Multiplicity="*" />
+    <End Role="TheLoaiSP" Type="Self.TheLoaiSP" Multiplicity="*" />
+  </Association>
+  <EntityContainer Name="WebEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="C__MigrationHistory" EntityType="Self.C__MigrationHistory" />
+    <EntitySet Name="ChiTietDonHangs" EntityType="Self.ChiTietDonHang" />
+    <EntitySet Name="DanhMucSanPhams" EntityType="Self.DanhMucSanPham" />
+    <EntitySet Name="DonHangs" EntityType="Self.DonHang" />
+    <EntitySet Name="HinhAnhSanPhams" EntityType="Self.HinhAnhSanPham" />
+    <EntitySet Name="NhaCungCaps" EntityType="Self.NhaCungCap" />
+    <EntitySet Name="QuyenAdmins" EntityType="Self.QuyenAdmin" />
+    <EntitySet Name="SanPhams" EntityType="Self.SanPham" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <EntitySet Name="ThanhViens" EntityType="Self.ThanhVien" />
+    <EntitySet Name="TheLoaiSPs" EntityType="Self.TheLoaiSP" />
+    <AssociationSet Name="FK_ChiTietDonHang_DonHang" Association="Self.FK_ChiTietDonHang_DonHang">
+      <End Role="DonHang" EntitySet="DonHangs" />
+      <End Role="ChiTietDonHang" EntitySet="ChiTietDonHangs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ChiTietDonHang_SanPham" Association="Self.FK_ChiTietDonHang_SanPham">
+      <End Role="SanPham" EntitySet="SanPhams" />
+      <End Role="ChiTietDonHang" EntitySet="ChiTietDonHangs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SanPham_DanhMucSanPham" Association="Self.FK_SanPham_DanhMucSanPham">
+      <End Role="DanhMucSanPham" EntitySet="DanhMucSanPhams" />
+      <End Role="SanPham" EntitySet="SanPhams" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DonHang_ThanhVien" Association="Self.FK_DonHang_ThanhVien">
+      <End Role="ThanhVien" EntitySet="ThanhViens" />
+      <End Role="DonHang" EntitySet="DonHangs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_HinhAnhSanPham_SanPham" Association="Self.FK_HinhAnhSanPham_SanPham">
+      <End Role="SanPham" EntitySet="SanPhams" />
+      <End Role="HinhAnhSanPham" EntitySet="HinhAnhSanPhams" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SanPham_NhaCungCap" Association="Self.FK_SanPham_NhaCungCap">
+      <End Role="NhaCungCap" EntitySet="NhaCungCaps" />
+      <End Role="SanPham" EntitySet="SanPhams" />
+    </AssociationSet>
+    <AssociationSet Name="FK_QuyenAdmin_ThanhVien" Association="Self.FK_QuyenAdmin_ThanhVien">
+      <End Role="ThanhVien" EntitySet="ThanhViens" />
+      <End Role="QuyenAdmin" EntitySet="QuyenAdmins" />
+    </AssociationSet>
+    <AssociationSet Name="SanPham_TheLoai" Association="Self.SanPham_TheLoai">
+      <End Role="SanPham" EntitySet="SanPhams" />
+      <End Role="TheLoaiSP" EntitySet="TheLoaiSPs" />
+    </AssociationSet>
+    <FunctionImport Name="hienthisp" ReturnType="Collection(Web_ChaoLongModel.hienthisp_Result)" />
+    <FunctionImport Name="danhsachnhacungcap" ReturnType="Collection(String)">
+      <Parameter Name="tendanhmuc" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sanphamtheo_danhmuc_nhacc" ReturnType="Collection(Web_ChaoLongModel.hienthisp_Result)">
+      <Parameter Name="danhmuc" Mode="In" Type="String" />
+      <Parameter Name="nhacc" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sanphamtheo_danhmuc" ReturnType="Collection(Web_ChaoLongModel.hienthisp_Result)">
+      <Parameter Name="danhmuc" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sanphamtheo_danhmuc_nhacc_mucgia" ReturnType="Collection(Web_ChaoLongModel.hienthisp_Result)">
+      <Parameter Name="danhmuc" Mode="In" Type="String" />
+      <Parameter Name="nhacc" Mode="In" Type="String" />
+      <Parameter Name="giamin" Mode="In" Type="Double" />
+      <Parameter Name="giamax" Mode="In" Type="Double" />
+    </FunctionImport>
+    <FunctionImport Name="TimKiemSanPham" ReturnType="Collection(Web_ChaoLongModel.TimKiemSanPham_Result2)">
+      <Parameter Name="AllWords" Mode="In" Type="Boolean" />
+      <Parameter Name="Word1" Mode="In" Type="String" />
+      <Parameter Name="Word2" Mode="In" Type="String" />
+      <Parameter Name="Word3" Mode="In" Type="String" />
+      <Parameter Name="Word4" Mode="In" Type="String" />
+      <Parameter Name="Word5" Mode="In" Type="String" />
+    </FunctionImport>
+    <EntitySet Name="SanPhamDuocChons" EntityType="Web_ChaoLongModel.SanPhamDuocChon" />
+    <AssociationSet Name="FK_SanPhamDuocChon_SanPham1" Association="Web_ChaoLongModel.FK_SanPhamDuocChon_SanPham1">
+      <End Role="SanPham" EntitySet="SanPhams" />
+      <End Role="SanPhamDuocChon" EntitySet="SanPhamDuocChons" />
+    </AssociationSet>
+    <EntitySet Name="LienHes" EntityType="Web_ChaoLongModel.LienHe" />
+    <FunctionImport Name="sp_alterdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_creatediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_dropdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagramdefinition" ReturnType="Collection(Web_ChaoLongModel.sp_helpdiagramdefinition_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagrams" ReturnType="Collection(Web_ChaoLongModel.sp_helpdiagrams_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_renamediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="new_diagramname" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_upgraddiagrams" />
+  </EntityContainer>
+  <ComplexType Name="sanphamtheo_danhmuc_nhacc_Result">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="TenSP" Nullable="false" MaxLength="50" />
+    <Property Type="Double" Name="GiaMoi" Nullable="true" />
+    <Property Type="Double" Name="GiaCu" Nullable="true" />
+    <Property Type="String" Name="HinhAnhURL" Nullable="false" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="hienthisp_Result">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="TenSP" Nullable="false" MaxLength="50" />
+    <Property Type="Double" Name="GiaMoi" Nullable="true" />
+    <Property Type="Double" Name="GiaCu" Nullable="true" />
+    <Property Type="String" Name="TenDM" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="TenNCC" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="AnhHienThi" Nullable="false" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="sanphamtheo_danhmuc_Result">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="TenSP" Nullable="false" MaxLength="50" />
+    <Property Type="Double" Name="GiaMoi" Nullable="true" />
+    <Property Type="Double" Name="GiaCu" Nullable="true" />
+    <Property Type="String" Name="TenDM" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="TenNCC" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="AnhHienThi" Nullable="false" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="sanphamtheo_danhmuc_nhacc_mucgia_Result">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="TenSP" Nullable="false" MaxLength="50" />
+    <Property Type="Double" Name="GiaMoi" Nullable="true" />
+    <Property Type="Double" Name="GiaCu" Nullable="true" />
+    <Property Type="String" Name="TenDM" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="TenNCC" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="AnhHienThi" Nullable="false" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="TimKiemSanPham_Result">
+    <Property Type="Int16" Name="STT" Nullable="false" />
+    <Property Type="Int32" Name="ID" Nullable="true" />
+    <Property Type="String" Name="TenSP" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="Rank" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="TimKiemSanPham_Result1">
+    <Property Type="Int16" Name="STT" Nullable="false" />
+    <Property Type="Int32" Name="ID" Nullable="true" />
+    <Property Type="String" Name="TenSP" Nullable="true" MaxLength="50" />
+    <Property Type="Double" Name="GiaMoi" Nullable="true" />
+    <Property Type="Double" Name="GiaCu" Nullable="true" />
+    <Property Type="String" Name="HinhAnhURL" Nullable="false" MaxLength="50" />
+    <Property Type="Int32" Name="Rank" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="TimKiemSanPham_Result2">
+    <Property Type="Int16" Name="STT" Nullable="false" />
+    <Property Type="Int32" Name="ID" Nullable="true" />
+    <Property Type="String" Name="TenSP" Nullable="true" MaxLength="50" />
+    <Property Type="Double" Name="GiaMoi" Nullable="true" />
+    <Property Type="Double" Name="GiaCu" Nullable="true" />
+    <Property Type="String" Name="TenNCC" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="HinhAnhURL" Nullable="false" MaxLength="50" />
+    <Property Type="Int32" Name="Rank" Nullable="true" />
+  </ComplexType>
+  <EntityType Name="SanPhamDuocChon">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="IDGioHang" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="IDSanPham" Type="Int32" Nullable="false" />
+    <Property Name="SoLuong" Type="Int32" />
+    <Property Name="NgayTao" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="SanPham" Relationship="Web_ChaoLongModel.FK_SanPhamDuocChon_SanPham1" FromRole="SanPhamDuocChon" ToRole="SanPham" />
+  </EntityType>
+  <Association Name="FK_SanPhamDuocChon_SanPham1">
+    <End Type="Web_ChaoLongModel.SanPham" Role="SanPham" Multiplicity="1" />
+    <End Type="Web_ChaoLongModel.SanPhamDuocChon" Role="SanPhamDuocChon" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SanPham">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="SanPhamDuocChon">
+        <PropertyRef Name="IDSanPham" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="LienHe">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="Ten" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" Nullable="false" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="TieuDe" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NoiDung" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="NgayGoi" Type="DateTime" Precision="3" />
+  </EntityType>
+  <ComplexType Name="sp_helpdiagramdefinition_Result">
+    <Property Type="Int32" Name="version" Nullable="true" />
+    <Property Type="Binary" Name="definition" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagrams_Result">
+    <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
+    <Property Type="Int32" Name="OwnerID" Nullable="false" />
+  </ComplexType>
+</Schema>

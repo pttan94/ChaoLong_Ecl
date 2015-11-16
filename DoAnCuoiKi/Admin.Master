@@ -1,0 +1,89 @@
+﻿<%@ Master  Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="DoAnCuoiKi.Admin" %>
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head runat="server">
+    <!-- Meta -->
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Content/bootstrap.min.css">
+    <!-- Custom footer -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="Content/footer-distributed-with-address-and-phones.css">
+    <link rel="stylesheet" href="Content/font-awesome.min.css">
+    <!-- Customizable CSS -->
+    <link rel="stylesheet" href="Content/mystyle.css">
+    <!-- JS -->
+    <script type="text/javascript" src="/Scripts/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="/Scripts/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/Scripts/scripts.js"></script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+<body>
+    <form runat="server">
+        <div class="wrapper">
+            <div id="main" class="container-fluid">
+                <div class="row">
+                    <div class="header-container" style="  background-color: blanchedalmond;">
+                        <h1> Admin Management</h1>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-3 sidemenu-holder">
+                    <div class="side-menu">
+                        <div class="head" style="background-color:orangered;">
+                            Danh Sách Quản lý 
+                        </div>
+                        <nav role="navigation">
+                            <ul class="nav">
+                                <li runat="server">
+                                    <a href="ProductMNG" class="dropdown-toggle  ">Quản lý sản phẩm
+                                    </a>
+                                </li>
+                                <li runat="server">
+                                    <a href="CategoryMNG" class="dropdown-toggle  ">Quản lý danh mục sản phẩm
+                                    </a>
+                                </li>
+                                <li runat="server">
+                                    <a href="OrderMNG" class="dropdown-toggle  ">Quản lý đơn hàng
+                                    </a>
+                                </li>
+                                <li runat="server">
+                                    <a href="UserMNG" class="dropdown-toggle  ">Quản lý người dùng
+                                    </a>
+                                </li>
+                                <li runat="server">
+                                    <a href="QAMNG" class="dropdown-toggle  ">Quản lý thắc mắc người dùng
+                                    </a>
+                                </li>
+                                <li runat="server">
+                                    <a href="ReportMNG" class="dropdown-toggle  ">Thống kê doanh thu
+                                    </a>
+                                </li>
+
+                            </ul>
+                            <asp:Button ID="btnSignOut" runat="server" Text="Đăng xuất" />
+                        </nav>
+
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-8 col-md-9" style="padding-right: 0; overflow: hidden">
+                    <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+        </div>
+
+    </form>
+</body>
+</html>
+

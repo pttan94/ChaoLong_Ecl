@@ -1,0 +1,207 @@
+E:\ASP.Net_WorkSpace\DoAnCuoiKi\DoAnCuoiKi\bin\DoAnCuoiKi.dll.config
+E:\ASP.Net_WorkSpace\DoAnCuoiKi\DoAnCuoiKi\bin\DoAnCuoiKi.dll
+E:\ASP.Net_WorkSpace\DoAnCuoiKi\DoAnCuoiKi\bin\DoAnCuoiKi.pdb
+E:\ASP.Net_WorkSpace\DoAnCuoiKi\DoAnCuoiKi\bin\Antlr3.Runtime.dll
+E:\ASP.Net_WorkSpace\DoAnCuoiKi\DoAnCuoiKi\bin\AspNet.ScriptManager.bootstrap.dll
+E:\ASP.Net_WorkSpace\DoAnCuoiKi\DoAnCuoiKi\bin\AspNet.ScriptManager.jQuery.dll
+E:\ASP.Net_WorkSpace\DoAnCuoiKi\DoAnCuoiKi\bin\EntityFramework.dll
+E:\ASP.Net_WorkSpace\DoAnCuoiKi\DoAnCuoiKi\bin\EntityFramework.SqlServer.dll
+E:\ASP.Net_WorkSpace\DoAnCuoiKi\DoAnCuoiKi\bin\Microsoft.AspNet.FriendlyUrls.dll
+E:\ASP.Net_WorkSpace\DoAnCuoiKi\DoAnCuoiKi\bin\Microsoft.AspNet.Identity.Core.dll
+E:\ASP.Net_WorkSpace\DoAnCuoiKi\DoAnCuoiKi\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\ASP.Net_WorkSpace\DoAnCuoiKi\DoAnCuoiKi\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\ASP.Net_WorkSpace\DoAnCuoiKi\DoAnCuoiKi\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+E:\ASP.Net_WorkSpace\DoAnCuoiKi\DoAnCuoiKi\bin\Microsoft.Owin.dll
+E:\ASP.Net_WorkSpace\DoAnCuoiKi\DoAnCuoiKi\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\ASP.Net_WorkSpace\DoAnCuoiKi\DoAnCuoiKi\bin\Microsoft.Owin.Security.Cookies.dll
+E:\ASP.Net_WorkSpace\DoAnCuoiKi\DoAnCuoiKi\bin\Microsoft.Owin.Security.dll
+E:\ASP.Net_WorkSpace\DoAnCuoiKi\DoAnCuoiKi\bin\Microsoft.Owin.Security.Facebook.dll
+E:\ASP.Net_WorkSpace\DoAnCuoiKi\DoAnCuoiKi\bin\Microsoft.Owin.Security.Google.dll
+E:\ASP.Net_WorkSpace\DoAnCuoiKi\DoAnCuoiKi\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\ASP.Net_WorkSpace\DoAnCuoiKi\DoAnCuoiKi\bin\Microsoft.Owin.Security.OAuth.dll
+E:\ASP.Net_WorkSpace\DoAnCuoiKi\DoAnCuoiKi\bin\Microsoft.Owin.Security.Twitter.dll
+E:\ASP.Net_WorkSpace\DoAnCuoiKi\DoAnCuoiKi\bin\Microsoft.ScriptManager.MSAjax.dll
+E:\ASP.Net_WorkSpace\DoAnCuoiKi\DoAnCuoiKi\bin\Microsoft.ScriptManager.WebForms.dll
+E:\ASP.Net_WorkSpace\DoAnCuoiKi\DoAnCuoiKi\bin\Microsoft.Web.Infrastructure.dll
+E:\ASP.Net_WorkSpace\DoAnCuoiKi\DoAnCuoiKi\bin\Newtonsoft.Json.dll
+E:\ASP.Net_WorkSpace\DoAnCuoiKi\DoAnCuoiKi\bin\Owin.dll
+E:\ASP.Net_WorkSpace\DoAnCuoiKi\DoAnCuoiKi\bin\System.Web.Optimization.dll
+E:\ASP.Net_WorkSpace\DoAnCuoiKi\DoAnCuoiKi\bin\System.Web.Providers.dll
+E:\ASP.Net_WorkSpace\DoAnCuoiKi\DoAnCuoiKi\bin\WebGrease.dll
+E:\ASP.Net_WorkSpace\DoAnCuoiKi\DoAnCuoiKi\bin\System.Web.Optimization.xml
+E:\ASP.Net_WorkSpace\DoAnCuoiKi\DoAnCuoiKi\bin\Antlr3.Runtime.pdb
+E:\ASP.Net_WorkSpace\DoAnCuoiKi\DoAnCuoiKi\bin\Newtonsoft.Json.xml
+E:\ASP.Net_WorkSpace\DoAnCuoiKi\DoAnCuoiKi\bin\Microsoft.AspNet.FriendlyUrls.xml
+E:\ASP.Net_WorkSpace\DoAnCuoiKi\DoAnCuoiKi\bin\EntityFramework.xml
+E:\ASP.Net_WorkSpace\DoAnCuoiKi\DoAnCuoiKi\bin\EntityFramework.SqlServer.xml
+E:\ASP.Net_WorkSpace\DoAnCuoiKi\DoAnCuoiKi\bin\Microsoft.AspNet.Identity.Core.xml
+E:\ASP.Net_WorkSpace\DoAnCuoiKi\DoAnCuoiKi\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\ASP.Net_WorkSpace\DoAnCuoiKi\DoAnCuoiKi\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\ASP.Net_WorkSpace\DoAnCuoiKi\DoAnCuoiKi\bin\System.Web.Providers.xml
+E:\ASP.Net_WorkSpace\DoAnCuoiKi\DoAnCuoiKi\bin\Microsoft.Owin.xml
+E:\ASP.Net_WorkSpace\DoAnCuoiKi\DoAnCuoiKi\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\ASP.Net_WorkSpace\DoAnCuoiKi\DoAnCuoiKi\bin\Microsoft.Owin.Security.xml
+E:\ASP.Net_WorkSpace\DoAnCuoiKi\DoAnCuoiKi\bin\Microsoft.Owin.Security.Facebook.xml
+E:\ASP.Net_WorkSpace\DoAnCuoiKi\DoAnCuoiKi\bin\Microsoft.Owin.Security.Cookies.xml
+E:\ASP.Net_WorkSpace\DoAnCuoiKi\DoAnCuoiKi\bin\Microsoft.Owin.Security.Google.xml
+E:\ASP.Net_WorkSpace\DoAnCuoiKi\DoAnCuoiKi\bin\Microsoft.Owin.Security.Twitter.xml
+E:\ASP.Net_WorkSpace\DoAnCuoiKi\DoAnCuoiKi\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\ASP.Net_WorkSpace\DoAnCuoiKi\DoAnCuoiKi\bin\Microsoft.Owin.Security.OAuth.xml
+E:\ASP.Net_WorkSpace\DoAnCuoiKi\DoAnCuoiKi\obj\Debug\DoAnCuoiKi.dll
+E:\ASP.Net_WorkSpace\DoAnCuoiKi\DoAnCuoiKi\obj\Debug\DoAnCuoiKi.pdb
+E:\ASP.Net_WorkSpace\DoAnCuoiKi\DoAnCuoiKi\obj\Debug\DoAnCuoiKi.csprojResolveAssemblyReference.cache
+F:\Code - ITUS\Web Development\DoAnCuoiKi_21_6_2\DoAnCuoiKi\bin\DoAnCuoiKi.dll
+F:\Code - ITUS\Web Development\DoAnCuoiKi_21_6_2\DoAnCuoiKi\bin\DoAnCuoiKi.pdb
+F:\Code - ITUS\Web Development\DoAnCuoiKi_21_6_2\DoAnCuoiKi\bin\Antlr3.Runtime.dll
+F:\Code - ITUS\Web Development\DoAnCuoiKi_21_6_2\DoAnCuoiKi\bin\AspNet.ScriptManager.bootstrap.dll
+F:\Code - ITUS\Web Development\DoAnCuoiKi_21_6_2\DoAnCuoiKi\bin\AspNet.ScriptManager.jQuery.dll
+F:\Code - ITUS\Web Development\DoAnCuoiKi_21_6_2\DoAnCuoiKi\bin\EntityFramework.dll
+F:\Code - ITUS\Web Development\DoAnCuoiKi_21_6_2\DoAnCuoiKi\bin\EntityFramework.SqlServer.dll
+F:\Code - ITUS\Web Development\DoAnCuoiKi_21_6_2\DoAnCuoiKi\bin\Microsoft.AspNet.FriendlyUrls.dll
+F:\Code - ITUS\Web Development\DoAnCuoiKi_21_6_2\DoAnCuoiKi\bin\Microsoft.AspNet.Identity.Core.dll
+F:\Code - ITUS\Web Development\DoAnCuoiKi_21_6_2\DoAnCuoiKi\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\Code - ITUS\Web Development\DoAnCuoiKi_21_6_2\DoAnCuoiKi\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\Code - ITUS\Web Development\DoAnCuoiKi_21_6_2\DoAnCuoiKi\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+F:\Code - ITUS\Web Development\DoAnCuoiKi_21_6_2\DoAnCuoiKi\bin\Microsoft.Owin.dll
+F:\Code - ITUS\Web Development\DoAnCuoiKi_21_6_2\DoAnCuoiKi\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\Code - ITUS\Web Development\DoAnCuoiKi_21_6_2\DoAnCuoiKi\bin\Microsoft.Owin.Security.Cookies.dll
+F:\Code - ITUS\Web Development\DoAnCuoiKi_21_6_2\DoAnCuoiKi\bin\Microsoft.Owin.Security.dll
+F:\Code - ITUS\Web Development\DoAnCuoiKi_21_6_2\DoAnCuoiKi\bin\Microsoft.Owin.Security.Facebook.dll
+F:\Code - ITUS\Web Development\DoAnCuoiKi_21_6_2\DoAnCuoiKi\bin\Microsoft.Owin.Security.Google.dll
+F:\Code - ITUS\Web Development\DoAnCuoiKi_21_6_2\DoAnCuoiKi\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\Code - ITUS\Web Development\DoAnCuoiKi_21_6_2\DoAnCuoiKi\bin\Microsoft.Owin.Security.OAuth.dll
+F:\Code - ITUS\Web Development\DoAnCuoiKi_21_6_2\DoAnCuoiKi\bin\Microsoft.Owin.Security.Twitter.dll
+F:\Code - ITUS\Web Development\DoAnCuoiKi_21_6_2\DoAnCuoiKi\bin\Microsoft.ScriptManager.MSAjax.dll
+F:\Code - ITUS\Web Development\DoAnCuoiKi_21_6_2\DoAnCuoiKi\bin\Microsoft.ScriptManager.WebForms.dll
+F:\Code - ITUS\Web Development\DoAnCuoiKi_21_6_2\DoAnCuoiKi\bin\Microsoft.Web.Infrastructure.dll
+F:\Code - ITUS\Web Development\DoAnCuoiKi_21_6_2\DoAnCuoiKi\bin\Newtonsoft.Json.dll
+F:\Code - ITUS\Web Development\DoAnCuoiKi_21_6_2\DoAnCuoiKi\bin\Owin.dll
+F:\Code - ITUS\Web Development\DoAnCuoiKi_21_6_2\DoAnCuoiKi\bin\System.Web.Optimization.dll
+F:\Code - ITUS\Web Development\DoAnCuoiKi_21_6_2\DoAnCuoiKi\bin\System.Web.Providers.dll
+F:\Code - ITUS\Web Development\DoAnCuoiKi_21_6_2\DoAnCuoiKi\bin\WebGrease.dll
+F:\Code - ITUS\Web Development\DoAnCuoiKi_21_6_2\DoAnCuoiKi\bin\Microsoft.Owin.xml
+F:\Code - ITUS\Web Development\DoAnCuoiKi_21_6_2\DoAnCuoiKi\bin\Microsoft.Owin.Security.xml
+F:\Code - ITUS\Web Development\DoAnCuoiKi_21_6_2\DoAnCuoiKi\bin\Microsoft.Owin.Security.Facebook.xml
+F:\Code - ITUS\Web Development\DoAnCuoiKi_21_6_2\DoAnCuoiKi\bin\Microsoft.Owin.Security.Google.xml
+F:\Code - ITUS\Web Development\DoAnCuoiKi_21_6_2\DoAnCuoiKi\bin\Microsoft.Owin.Security.OAuth.xml
+F:\Code - ITUS\Web Development\DoAnCuoiKi_21_6_2\DoAnCuoiKi\bin\Microsoft.Owin.Security.Twitter.xml
+F:\Code - ITUS\Web Development\DoAnCuoiKi_21_6_2\DoAnCuoiKi\bin\Newtonsoft.Json.xml
+F:\Code - ITUS\Web Development\DoAnCuoiKi_21_6_2\DoAnCuoiKi\bin\System.Web.Optimization.xml
+F:\Code - ITUS\Web Development\DoAnCuoiKi_21_6_2\DoAnCuoiKi\bin\Antlr3.Runtime.pdb
+F:\Code - ITUS\Web Development\DoAnCuoiKi_21_6_2\DoAnCuoiKi\bin\Microsoft.AspNet.FriendlyUrls.xml
+F:\Code - ITUS\Web Development\DoAnCuoiKi_21_6_2\DoAnCuoiKi\bin\EntityFramework.xml
+F:\Code - ITUS\Web Development\DoAnCuoiKi_21_6_2\DoAnCuoiKi\bin\EntityFramework.SqlServer.xml
+F:\Code - ITUS\Web Development\DoAnCuoiKi_21_6_2\DoAnCuoiKi\bin\Microsoft.AspNet.Identity.Core.xml
+F:\Code - ITUS\Web Development\DoAnCuoiKi_21_6_2\DoAnCuoiKi\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\Code - ITUS\Web Development\DoAnCuoiKi_21_6_2\DoAnCuoiKi\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\Code - ITUS\Web Development\DoAnCuoiKi_21_6_2\DoAnCuoiKi\bin\System.Web.Providers.xml
+F:\Code - ITUS\Web Development\DoAnCuoiKi_21_6_2\DoAnCuoiKi\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\Code - ITUS\Web Development\DoAnCuoiKi_21_6_2\DoAnCuoiKi\bin\Microsoft.Owin.Security.Cookies.xml
+F:\Code - ITUS\Web Development\DoAnCuoiKi_21_6_2\DoAnCuoiKi\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\Code - ITUS\Web Development\DoAnCuoiKi_21_6_2\DoAnCuoiKi\obj\Debug\DoAnCuoiKi.dll
+F:\Code - ITUS\Web Development\DoAnCuoiKi_21_6_2\DoAnCuoiKi\obj\Debug\DoAnCuoiKi.pdb
+F:\Code - ITUS\Web Development\DoAnCuoiKi_21_6_2\DoAnCuoiKi\obj\Debug\DoAnCuoiKi.csprojResolveAssemblyReference.cache
+C:\Users\TamTrong\Desktop\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\DoAnCuoiKi.dll.config
+C:\Users\TamTrong\Desktop\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\DoAnCuoiKi.dll
+C:\Users\TamTrong\Desktop\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\DoAnCuoiKi.pdb
+C:\Users\TamTrong\Desktop\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Antlr3.Runtime.dll
+C:\Users\TamTrong\Desktop\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\TamTrong\Desktop\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\TamTrong\Desktop\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\EntityFramework.dll
+C:\Users\TamTrong\Desktop\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\EntityFramework.SqlServer.dll
+C:\Users\TamTrong\Desktop\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\TamTrong\Desktop\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\TamTrong\Desktop\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\TamTrong\Desktop\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\TamTrong\Desktop\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\TamTrong\Desktop\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Microsoft.Owin.dll
+C:\Users\TamTrong\Desktop\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\TamTrong\Desktop\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\TamTrong\Desktop\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Microsoft.Owin.Security.dll
+C:\Users\TamTrong\Desktop\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\TamTrong\Desktop\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\TamTrong\Desktop\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\TamTrong\Desktop\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\TamTrong\Desktop\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\TamTrong\Desktop\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\TamTrong\Desktop\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\TamTrong\Desktop\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\TamTrong\Desktop\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Newtonsoft.Json.dll
+C:\Users\TamTrong\Desktop\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Owin.dll
+C:\Users\TamTrong\Desktop\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\System.Web.Optimization.dll
+C:\Users\TamTrong\Desktop\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\System.Web.Providers.dll
+C:\Users\TamTrong\Desktop\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\WebGrease.dll
+C:\Users\TamTrong\Desktop\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Microsoft.Owin.xml
+C:\Users\TamTrong\Desktop\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Microsoft.Owin.Security.xml
+C:\Users\TamTrong\Desktop\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\TamTrong\Desktop\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\TamTrong\Desktop\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\TamTrong\Desktop\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\TamTrong\Desktop\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Newtonsoft.Json.xml
+C:\Users\TamTrong\Desktop\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\System.Web.Optimization.xml
+C:\Users\TamTrong\Desktop\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Antlr3.Runtime.pdb
+C:\Users\TamTrong\Desktop\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\TamTrong\Desktop\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\EntityFramework.xml
+C:\Users\TamTrong\Desktop\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\EntityFramework.SqlServer.xml
+C:\Users\TamTrong\Desktop\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\TamTrong\Desktop\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\TamTrong\Desktop\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\TamTrong\Desktop\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\System.Web.Providers.xml
+C:\Users\TamTrong\Desktop\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\TamTrong\Desktop\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\TamTrong\Desktop\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\TamTrong\Desktop\DoAnCuoiKi_23-6\DoAnCuoiKi\obj\Debug\DoAnCuoiKi.csprojResolveAssemblyReference.cache
+C:\Users\TamTrong\Desktop\DoAnCuoiKi_23-6\DoAnCuoiKi\obj\Debug\DoAnCuoiKi.dll
+C:\Users\TamTrong\Desktop\DoAnCuoiKi_23-6\DoAnCuoiKi\obj\Debug\DoAnCuoiKi.pdb
+F:\Download\[LinksVIP.Net] Web_ChaoLong\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\DoAnCuoiKi.dll.config
+F:\Download\[LinksVIP.Net] Web_ChaoLong\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\DoAnCuoiKi.dll
+F:\Download\[LinksVIP.Net] Web_ChaoLong\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\DoAnCuoiKi.pdb
+F:\Download\[LinksVIP.Net] Web_ChaoLong\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Antlr3.Runtime.dll
+F:\Download\[LinksVIP.Net] Web_ChaoLong\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\AspNet.ScriptManager.bootstrap.dll
+F:\Download\[LinksVIP.Net] Web_ChaoLong\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\AspNet.ScriptManager.jQuery.dll
+F:\Download\[LinksVIP.Net] Web_ChaoLong\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\EntityFramework.dll
+F:\Download\[LinksVIP.Net] Web_ChaoLong\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\EntityFramework.SqlServer.dll
+F:\Download\[LinksVIP.Net] Web_ChaoLong\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Microsoft.AspNet.FriendlyUrls.dll
+F:\Download\[LinksVIP.Net] Web_ChaoLong\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Microsoft.AspNet.Identity.Core.dll
+F:\Download\[LinksVIP.Net] Web_ChaoLong\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\Download\[LinksVIP.Net] Web_ChaoLong\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\Download\[LinksVIP.Net] Web_ChaoLong\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+F:\Download\[LinksVIP.Net] Web_ChaoLong\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Microsoft.Owin.dll
+F:\Download\[LinksVIP.Net] Web_ChaoLong\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\Download\[LinksVIP.Net] Web_ChaoLong\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Microsoft.Owin.Security.Cookies.dll
+F:\Download\[LinksVIP.Net] Web_ChaoLong\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Microsoft.Owin.Security.dll
+F:\Download\[LinksVIP.Net] Web_ChaoLong\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Microsoft.Owin.Security.Facebook.dll
+F:\Download\[LinksVIP.Net] Web_ChaoLong\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Microsoft.Owin.Security.Google.dll
+F:\Download\[LinksVIP.Net] Web_ChaoLong\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\Download\[LinksVIP.Net] Web_ChaoLong\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Microsoft.Owin.Security.OAuth.dll
+F:\Download\[LinksVIP.Net] Web_ChaoLong\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Microsoft.Owin.Security.Twitter.dll
+F:\Download\[LinksVIP.Net] Web_ChaoLong\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Microsoft.ScriptManager.MSAjax.dll
+F:\Download\[LinksVIP.Net] Web_ChaoLong\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Microsoft.ScriptManager.WebForms.dll
+F:\Download\[LinksVIP.Net] Web_ChaoLong\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Microsoft.Web.Infrastructure.dll
+F:\Download\[LinksVIP.Net] Web_ChaoLong\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Newtonsoft.Json.dll
+F:\Download\[LinksVIP.Net] Web_ChaoLong\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Owin.dll
+F:\Download\[LinksVIP.Net] Web_ChaoLong\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\System.Web.Optimization.dll
+F:\Download\[LinksVIP.Net] Web_ChaoLong\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\System.Web.Providers.dll
+F:\Download\[LinksVIP.Net] Web_ChaoLong\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\WebGrease.dll
+F:\Download\[LinksVIP.Net] Web_ChaoLong\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Microsoft.Owin.xml
+F:\Download\[LinksVIP.Net] Web_ChaoLong\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Microsoft.Owin.Security.xml
+F:\Download\[LinksVIP.Net] Web_ChaoLong\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Microsoft.Owin.Security.Facebook.xml
+F:\Download\[LinksVIP.Net] Web_ChaoLong\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Microsoft.Owin.Security.Google.xml
+F:\Download\[LinksVIP.Net] Web_ChaoLong\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Microsoft.Owin.Security.OAuth.xml
+F:\Download\[LinksVIP.Net] Web_ChaoLong\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Microsoft.Owin.Security.Twitter.xml
+F:\Download\[LinksVIP.Net] Web_ChaoLong\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Newtonsoft.Json.xml
+F:\Download\[LinksVIP.Net] Web_ChaoLong\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\System.Web.Optimization.xml
+F:\Download\[LinksVIP.Net] Web_ChaoLong\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Antlr3.Runtime.pdb
+F:\Download\[LinksVIP.Net] Web_ChaoLong\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Microsoft.AspNet.FriendlyUrls.xml
+F:\Download\[LinksVIP.Net] Web_ChaoLong\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\EntityFramework.xml
+F:\Download\[LinksVIP.Net] Web_ChaoLong\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\EntityFramework.SqlServer.xml
+F:\Download\[LinksVIP.Net] Web_ChaoLong\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Microsoft.AspNet.Identity.Core.xml
+F:\Download\[LinksVIP.Net] Web_ChaoLong\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\Download\[LinksVIP.Net] Web_ChaoLong\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\Download\[LinksVIP.Net] Web_ChaoLong\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\System.Web.Providers.xml
+F:\Download\[LinksVIP.Net] Web_ChaoLong\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\Download\[LinksVIP.Net] Web_ChaoLong\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Microsoft.Owin.Security.Cookies.xml
+F:\Download\[LinksVIP.Net] Web_ChaoLong\DoAnCuoiKi_23-6\DoAnCuoiKi\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\Download\[LinksVIP.Net] Web_ChaoLong\DoAnCuoiKi_23-6\DoAnCuoiKi\obj\Debug\DoAnCuoiKi.csprojResolveAssemblyReference.cache
+F:\Download\[LinksVIP.Net] Web_ChaoLong\DoAnCuoiKi_23-6\DoAnCuoiKi\obj\Debug\DoAnCuoiKi.dll
+F:\Download\[LinksVIP.Net] Web_ChaoLong\DoAnCuoiKi_23-6\DoAnCuoiKi\obj\Debug\DoAnCuoiKi.pdb
